@@ -58,5 +58,14 @@ var olives = {
     price: 100,
     }
 
+var within = {
+    name: "within CBD",
+    price: 100,
+    }
+
+var outside = {
+    name: "outside CBD",
+    price: 300,
+}
 
   
