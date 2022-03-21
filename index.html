@@ -12,7 +12,7 @@
     
     <div class="header1">
         <h1> PRINCES PIZZA HUB</h1>
-        <h2>PLACE YOUR ORDER WITH US FOR QUALITY</h2>
+        <h2>PLACE YOUR ORDER WITH US FOR QUALITY <span style='font-size:40px;'>&#127829;</span></h2>
     </div>
 
     <div class="container">
@@ -21,47 +21,51 @@
         <div id="order-form">
               <h3>SIZE</h3>
               <p>
-               Small Pizza:   500ksh<br>
-                Medium Pizza:   800kshs<br>
-                 Large Pizza:   1000kshs<br>
-                  XL Pizza:    1300kshs
+               Small Pizza:   500<br>
+                Medium Pizza:   800<br>
+                 Large Pizza:   1000<br>
+                  XL Pizza:    1300
               </p>
 
               <h3>CRUST</h3>
-              <P>Crispy:   100kshs<br>
-                  Stuffed:   150kshs<br>
-                   Gluten Free:  200kshs<br>
+              <P>Crispy:   100<br>
+                  Stuffed:   150<br>
+                   Gluten Free:  200<br>
               </P>
                
               <h3>TOPPINGS</h3>
               <p>
-                Macon:   250ksh<br>
-                 Mince:   200ksh<br>
-                  Pineapple:   150kshs<br>
-                   Green Pepper:   100kshs<br>
-                    Olives:   100kshs<br>     
+                Macon:   250<br>
+                 Mince:   200<br>
+                  Pineapple:   150<br>
+                   Green Pepper:   100<br>
+                    Olives:   100<br>     
               </p>
 
               <h3>DELIVERY</h3>
               <p>
-                Within CBD:   100kshs<br>
-                Outside CBD:   300kshs<br>
+                Within CBD:   100<br>
+                Outside CBD:   300<br>
               </p>
 
               <form id="checklist">
                   <h3>SIZE</h3>
-                  <input type="checkbox" name="size" value="small">Small
-                  <input type="checkbox" name="size" value="medium">Medium
-                  <input type="checkbox" name="size" value="large">Large
-                  <input type="checkbox" name="size" value="XL">XL
-                  <br>
-
-                  <h3>CRUST</h3>
-                  <input type="checkbox" name="crust" value="crispy">Crispy
-                  <input type="checkbox" name="crust" value="stuffed">Stuffed
-                  <input type="checkbox" name="crust" value="glutenfree">Gluten Free
-                  <br>
-
+                
+                    <select name="size" id="sizes">
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    
+                    <h3>CRUST</h3>
+                    <select name="crust" id="crust">
+                        <option value="crispy">Crispy</option>
+                        <option value="stuffed">Stuffed</option>
+                        <option value="glutenfree">Gluten Free</option>
+                    </select>
+                  
+                  
                   <h3>TOPPINGS</h3>
                   <input type="checkbox" name="toppings" value="macon">Macon
                   <input type="checkbox" name="toppings" value="mince">Mince
@@ -71,18 +75,23 @@
                   <br>
 
                   <h3>DELIVERY</h3>
-                  <input type="checkbox" name="delivery" value="within">Within CBD
-                  <input type="checkbox" name="delivery" value="outside">Outside CBD
+                  <input type="radio" name="delivery" value="within">Within CBD
+                  <input type="radio" name="delivery" value="outside">Outside CBD
                   <br>
                   <br>
 
-                  <input type="submit" value="CHECKOUT">
+                  <label for="locaton">LOCATION:
+                   </label><br>
+                   <input type="text" id="location"
+                    name="location"><br><br>
+
+                  <input type="submit" value="CHECKOUT" id="checkout">
               </form>
          </div>
 
          <p id="price-display"></p>
 
-         <h3>SUB-TOTAL</h3>
+         <h3>SUB-TOTAL<span class="total"></span></h3>
          <div id="total-display">
              <ul id="total-list">
               </ul>
@@ -91,6 +100,6 @@
          <div id="footer">
          </div>
    </div>
-   <script src="myscripts.js"></script>
+   <script src="script.js"></script>
 </body>
 </html>

@@ -1,71 +1,79 @@
-var small = {
+let small = {
     name: "small",
     price: 500,
     }
-  
-var medium = {
+ 
+let medium = {
     name: "medium",
     price: 800,
     }
   
-var large = {
+let large = {
     name: "large",
     price: 1000,
     }
 
-var XL = {
+let XL = {
     name: "XL",
     price: 1300, 
     }
 
-var crispy = {
+let crispy = {
     name: "crispy",
     price: 100,
     }
 
-var stuffed = {
+let stuffed = {
     name: "stuffed",
     price: 150,
     }
 
-var glutenfree = {
+let glutenfree = {
     name: "gluten free",
     price: 200,
     }
 
-var macon = {
+let macon = {
     name: "macon",
     price: 250,
     }
   
-var mince = {
+let mince = {
     name: "mince",
     price: 200,
     }
   
-var pineapple = {
+let pineapple = {
     name: "pineapple",
     price: 150,
     }
   
-var greenpepper = {
+let greenpepper = {
     name: "greenpepper",
     price: 100,
     }
 
-var olives = {
+let olives = {
     name: "olives",
     price: 100,
     }
 
-var within = {
+let within = {
     name: "within CBD",
     price: 100,
     }
 
-var outside = {
+let outside = {
     name: "outside CBD",
     price: 300,
-}
+    }
 
-  
+let crust=document.getElementById("crust")
+let sizesel=document.getElementById("sizes")
+let checkButton=document.querySelector("#checkout")
+checkButton.addEventListener("click",function(l){
+    l.preventDefault();
+    console.log(crust.value)
+})
+
+
