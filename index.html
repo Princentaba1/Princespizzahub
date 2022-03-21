@@ -24,7 +24,6 @@
                Small Pizza:   500<br>
                 Medium Pizza:   800<br>
                  Large Pizza:   1000<br>
-                  XL Pizza:    1300
               </p>
 
               <h3>CRUST</h3>
@@ -55,24 +54,25 @@
                         <option value="small">Small</option>
                         <option value="medium">Medium</option>
                         <option value="large">Large</option>
-                        <option value="XL">XL</option>
                     </select>
                     
                     <h3>CRUST</h3>
+
                     <select name="crust" id="crust">
                         <option value="crispy">Crispy</option>
                         <option value="stuffed">Stuffed</option>
                         <option value="glutenfree">Gluten Free</option>
                     </select>
                   
-                  
-                  <h3>TOPPINGS</h3>
-                  <input type="checkbox" name="toppings" value="macon">Macon
-                  <input type="checkbox" name="toppings" value="mince">Mince
-                  <input type="checkbox" name="toppings" value="pineapple">Pineapple
-                  <input type="checkbox" name="toppings" value="greenpepper">Green Pepper<br>
-                  <input type="checkbox" name="toppings" value="olives">Olives
-                  <br>
+                    <h3>TOPPINGS</h3>
+
+                  <select name="toppings" id="toppings">
+                        <option value="macon">Macon</option>
+                        <option value="mince">Mince</option>
+                        <option value="pineapple">Pineapple</option>
+                        <option value="greenpepper">Green Pepper</option>
+                        <option value="olives">Olives</option>
+                    </select>
 
                   <h3>DELIVERY</h3>
                   <input type="radio" name="delivery" value="within">Within CBD
@@ -91,7 +91,7 @@
 
          <p id="price-display"></p>
 
-         <h3>SUB-TOTAL<span class="total"></span></h3>
+         <h3>SUB-TOTAL: <span id="total"></span></h3>
          <div id="total-display">
              <ul id="total-list">
               </ul>

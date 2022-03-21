@@ -68,12 +68,20 @@ let outside = {
     price: 300,
     }
 
-let crust=document.getElementById("crust")
-let sizesel=document.getElementById("sizes")
+let total=document.getElementById("total")
 let checkButton=document.querySelector("#checkout")
 checkButton.addEventListener("click",function(l){
     l.preventDefault();
-    console.log(crust.value)
+    ntaba()
 })
-
+function ntaba(){
+    let toppings=document.getElementById("toppings").value
+    let crust=document.getElementById("crust").value
+    let sizesel=document.getElementById("sizes").value
+    let total2;
+    if(toppings==="macon"&&crust==="crispy"&&sizesel==="small"){
+       total2=macon.price+crispy.price+small.price;
+       total.innerText=total2;
+    }
+}
 
