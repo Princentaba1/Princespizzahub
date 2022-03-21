@@ -82,6 +82,56 @@ function ntaba(){
     if(toppings==="macon"&&crust==="crispy"&&sizesel==="small"){
        total2=macon.price+crispy.price+small.price;
        total.innerText=total2;
+    }else if(toppings==="macon"&&crust==="crispy"&&sizesel==="medium"){
+        total2=macon.price+crispy.price+medium.price;
+        total.innerText=total2;
+    }else if(toppings==="macon"&&crust==="crispy"&&sizesel==="large"){
+        total2=macon.price+crispy.price+large.price;
+        total.innerText=total2;
+    }else if(toppings==="macon"&&crust==="stuffed"&&sizesel==="small"){
+        total2=macon.price+stuffed.price+small.price;
+        total.innerText=total2;
+    }else if(toppings==="macon"&&crust==="stuffed"&&sizesel==="medium"){
+        total2=macon.price+stuffed.price+medium.price;
+        total.innerText=total2;
+    }else if(toppings==="macon"&&crust==="stuffed"&&sizesel==="large"){
+        total2=macon.price+stuffed.price+large.price;
+        total.innerText=total2;
+    }else if(toppings==="macon"&&crust==="glutenfree"&&sizesel==="small"){
+        total2=macon.price+glutenfree.price+small.price;
+        total.innerText=total2;
+    }else if(toppings==="macon"&&crust==="glutenfree"&&sizesel==="medium"){
+        total2=macon.price+glutenfree.price+medium.price;
+        total.innerText=total2;
+    }else if(toppings==="macon"&&crust==="glutenfree"&&sizesel==="large"){
+        total2=macon.price+glutenfree.price+large.price;
+        total.innerText=total2;
+    }else if(toppings==="mince"&&crust==="crispy"&&sizesel==="small"){
+        total2=mince.price+crispy.price+small.price;
+        total.innerText=total2;
+    }else if(toppings==="mince"&&crust==="crispy"&&sizesel==="medium"){
+        total2=mince.price+crispy.price+medium.price;
+        total.innerText=total2;
+    }else if(toppings==="mince"&&crust==="crispy"&&sizesel==="large"){
+        total2=mince.price+crispy.price+large.price;
+        total.innerText=total2;
+    }else if(toppings==="pineapple"&&crust==="stuffed"&&sizesel==="small"){
+        total2=pineapple.price+stuffed.price+small.price;
+        total.innerText=total2;
+    }else if(toppings==="pineapple"&&crust==="stuffed"&&sizesel==="medium"){
+        total2=pineapple.price+stuffed.price+medium.price;
+        total.innerText=total2;
+    }else if(toppings==="pineapple"&&crust==="stuffed"&&sizesel==="large"){
+        total2=pineapple.price+stuffed.price+large.price;
+        total.innerText=total2;
+    }else if(toppings==="greenpepper"&&crust==="crispy"&&sizesel==="small"){
+        total2=greenpepper.price+crispy.price+small.price;
+        total.innerText=total2;
+    }else if(toppings==="greenpepper"&&crust==="crispy"&&sizesel==="medium"){
+        total2=greenpepper.price+crispy.price+medium.price;
+        total.innerText=total2;
+    }else if(toppings==="greenpepper"&&crust==="crispy"&&sizesel==="large"){
+        total2=greenpepper.price+crispy.price+large.price;
+        total.innerText=total2;
     }
 }
-
