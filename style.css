@@ -21,3 +21,9 @@ body{
     margin-left: auto;
     margin-right: auto;
     }
+.loc2{
+    display: none;
+    }
+.loc3{
+    display: block;
+    }
